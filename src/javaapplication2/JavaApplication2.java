@@ -22,10 +22,15 @@ public class JavaApplication2 {
         // long y = 4543658768979089L;
         
         Scanner sc = new Scanner(System.in);
-        System.out.println("Input x (long): ");
-        long x = sc.nextLong();
+        System.out.println("Input x (float): ");
+        float x = sc.nextFloat();
         
-        System.out.println(x);
+        System.out.println("Input  y (float): ");
+        float y = sc.nextFloat();
+               
+        System.out.println(x/y);
+                System.out.println(x*x);
+                System.out.println(y*y*y);
     }
     
 }
